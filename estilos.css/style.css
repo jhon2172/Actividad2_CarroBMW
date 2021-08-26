@@ -1,0 +1,168 @@
+*{
+    margin:0;
+
+}
+
+
+/* -------------CONTENEDOR PRINCIPAL-----------------*/
+#contendor{
+    display:flex;
+    background-image: url("/assets/1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*----------IMAGEN BMW----------*/
+
+
+#cont-img img{
+    height: 80px;
+    width: 80px;
+    padding: 20px 50px;
+    justify-content:flex-end;
+    
+    
+}
+
+/*----------MENU--------------- */
+header nav{
+    text-align: right;
+    display:inline-block;
+    width:1500px;
+    padding: 42px;
+}
+
+header ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    border: solid;
+    font-size: 20px;
+    
+    border-color: #00000000;
+    border-radius: 10%;
+    background-color: #c52c1800;
+    color: white;
+    padding: 10px 10PX;
+}
+header ul li #order-now{
+    text-decoration: none;
+    border: solid;
+    
+    border-color: #00000000;
+    border-radius: 10%;
+    background-color: #9b011e;
+    color: white;
+    padding: 10px 10PX;
+}
+
+
+header ul li a:hover{
+    background-color: #fcfcfc;
+    color:red;
+    
+}
+
+header ul li a:active{
+    padding: 0.2em;
+}
+
+/*--------------TEXTO-------------*/
+#contenedorTexto{
+    width: 50%;
+    height: 80%;
+   
+}
+
+#titulo{
+    margin-top: 300px;
+    color: rgb(248, 248, 248);
+    padding-left: 30px;
+    font-size:30px;
+    width: 90%;
+    font: bold;
+    text-align:left;
+    
+}
+H1{
+    font-family: "Arial", Helvetica, sans-serif ;
+    
+}
+
+a{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif ;
+    font-weight: bold;
+}
+
+#texto{
+    width: 90%;
+    font-size:30px;
+    margin-left:2%;
+    color:rgb(255, 255, 255);
+    padding: 50px 20px;
+    
+}
+
+#texto a{
+    font-family: "Gill Sans Extrabold", Helvetica, sans-serif
+}
+
+#ordenar{
+    
+    color:white;
+    padding:20px 10px;
+    text-align:center;
+    align-items: center;
+    background-color:#E40C34;
+    border-radius: 10px;
+    margin-left:3%;
+    width: 20%;
+    height: 30px;
+    float: left;
+    
+}
+#ordenar:hover{
+    background-color: #fd0606;
+    
+}
+
+/*IMAGENES PEQUEÑAS*/
+#img2{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-color: #E40C34;
+    border-radius: 10px;
+}
+#img3{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-color: #E40C34;
+    border-radius: 10px;
+    
+}
+#contenedorIMG{
+
+    text-align: center;
+    padding:0px;
+    margin-top: 33%;
+    height:200px; /*ANCHO */
+    width:800px; /*ALTO */ 
+    
+}
+
+#contenedorIMG #img3{
+    margin-left: 15px;
+}
